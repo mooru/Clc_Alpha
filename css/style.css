@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?ai0g4s');
+    src:    url('fonts/icomoon.eot?ai0g4s#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?ai0g4s') format('truetype'),
+        url('fonts/icomoon.woff?ai0g4s') format('woff'),
+        url('fonts/icomoon.svg?ai0g4s#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube_play:before {
+    content: "\e914";
+}
+.icon-facebook:before {
+    content: "\e915";
+}
+.icon-instagram:before {
+    content: "\e916";
+}
+.icon-twitter:before {
+    content: "\e917";
+}
+.icon-youtube:before {
+    content: "\e918";
+}
+.icon-europe-middle-east .path1:before {
+    content: "\e91d";
+    color: rgb(220, 220, 220);
+}
+.icon-europe-middle-east .path2:before {
+    content: "\e91e";
+    margin-left: -1em;
+    color: rgb(80, 80, 80);
+}
+.icon-asia-pacific .path1:before {
+    content: "\e91f";
+    color: rgb(223, 223, 223);
+}
+.icon-asia-pacific .path2:before {
+    content: "\e920";
+    margin-left: -1em;
+    color: rgb(80, 80, 80);
+}
+.icon-americas .path1:before {
+    content: "\e921";
+    color: rgb(220, 220, 220);
+}
+.icon-americas .path2:before {
+    content: "\e922";
+    margin-left: -1em;
+    color: rgb(80, 80, 80);
+}
+.icon-africa .path1:before {
+    content: "\e91b";
+    color: rgb(220, 220, 220);
+}
+.icon-africa .path2:before {
+    content: "\e91c";
+    margin-left: -1em;
+    color: rgb(80, 80, 80);
+}
+.icon-event:before {
+    content: "\e919";
+}
+.icon-globe2:before {
+    content: "\e91a";
+}
+.icon-envelope:before {
+    content: "\f0e0";
+}
+.icon-globe:before {
+    content: "\e913";
+}
+.icon-alpha:before {
+    content: "\e900";
+}
+.icon-arrow:before {
+    content: "\e901";
+}
+.icon-article .path1:before {
+    content: "\e902";
+    color: rgb(255, 255, 255);
+}
+.icon-article .path2:before {
+    content: "\e903";
+    margin-left: -1em;
+    color: rgb(227, 35, 18);
+}
+.icon-article .path3:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(227, 35, 18);
+}
+.icon-article .path4:before {
+    content: "\e905";
+    margin-left: -1em;
+    color: rgb(227, 35, 18);
+}
+.icon-article .path5:before {
+    content: "\e906";
+    margin-left: -1em;
+    color: rgb(227, 35, 18);
+}
+.icon-article .path6:before {
+    content: "\e907";
+    margin-left: -1em;
+    color: rgb(227, 35, 18);
+}
+.icon-article .path7:before {
+    content: "\e908";
+    margin-left: -1em;
+    color: rgb(227, 35, 18);
+}
+.icon-article .path8:before {
+    content: "\e909";
+    margin-left: -1em;
+    color: rgb(227, 35, 18);
+}
+.icon-cross:before {
+    content: "\e90a";
+}
+.icon-episodes:before {
+    content: "\e90b";
+}
+.icon-play .path1:before {
+    content: "\e90c";
+    color: rgb(255, 255, 255);
+}
+.icon-play .path2:before {
+    content: "\e90d";
+    margin-left: -1em;
+    color: rgb(228, 40, 22);
+}
+.icon-play_mono:before {
+    content: "\e90e";
+}
+.icon-search:before {
+    content: "\e90f";
+}
+.icon-arrow_square .path1:before {
+    content: "\e910";
+    color: rgb(80, 80, 80);
+}
+.icon-arrow_square .path2:before {
+    content: "\e911";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-ellipsis:before {
+    content: "\e912";
+}
+
