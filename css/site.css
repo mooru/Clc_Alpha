@@ -1,6 +1,3 @@
-/*! Squarespace LESS Compiler  (less.js language v1.3.3)  */
-
-
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 
 article,
@@ -196,8 +193,6 @@ table {
 }
 
 
-/*! Squarespace LESS Compiler  (less.js language v1.3.3)  */
-
 .clear {
     zoom: 1
 }
@@ -259,7 +254,7 @@ table {
 }
 
 .squarespace-signup-spinner {
-    background: transparent url('//static.squarespace.com/universal/images-v6/big-gear.png') center center no-repeat;
+    background: transparent url('images/big-gear.png') center center no-repeat;
     width: 300px !important;
     height: 220px !important;
     -webkit-animation-duration: 2s;
@@ -1015,7 +1010,7 @@ body.no-scroll {
 
 .sqs-action-overlay>div.remove,
 .sqs-action-overlay>div.remove-image {
-    background: transparent url('/images/trash-9-light.png') center center no-repeat;
+    /*background: transparent url('/images/trash-9-light.png') center center no-repeat;*/
     cursor: pointer
 }
 
@@ -1023,108 +1018,108 @@ body.no-scroll {
 (min-resolution:1.5dppx) {
     .sqs-action-overlay>div.remove,
     .sqs-action-overlay>div.remove-image {
-        background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-light@2x.png');
+        /*background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-light@2x.png');*/
         background-size: 9px 11px
     }
 }
 
 .sqs-action-overlay>div.remove:hover,
 .sqs-action-overlay>div.remove-image:hover {
-    background: transparent url('//static.squarespace.com/universal/images-v6/damask/trash-9-red.png') center center no-repeat
+    /*background: transparent url('//static.squarespace.com/universal/images-v6/damask/trash-9-red.png') center center no-repeat*/
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:1.5dppx) {
     .sqs-action-overlay>div.remove:hover,
     .sqs-action-overlay>div.remove-image:hover {
-        background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-red@2x.png');
+        /*background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-red@2x.png');*/
         background-size: 9px 11px
     }
 }
 
 .sqs-action-overlay>div.remove:hover,
 .sqs-action-overlay>div.remove-image:hover {
-    background: #f0523d url('//static.squarespace.com/universal/images-v6/damask/trash-9-light.png') center center no-repeat
+    background: #f0523d url('images/trash-9-light.png') center center no-repeat
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:1.5dppx) {
     .sqs-action-overlay>div.remove:hover,
     .sqs-action-overlay>div.remove-image:hover {
-        background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-light@2x.png');
+        /*background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-light@2x.png');*/
         background-size: 9px 11px
     }
 }
 
 .sqs-action-overlay>div.video-info {
-    background: transparent url('//static.squarespace.com/universal/images-v6/damask/edit-info-light.png') center center no-repeat
+    background: transparent url('images/edit-info-light.png') center center no-repeat
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:1.5dppx) {
     .sqs-action-overlay>div.video-info {
-        background-image: url('//static.squarespace.com/universal/images-v6/damask/edit-info-light@2x.png');
+        background-image: url('images/edit-info-light@2x.png');
         background-size: 16px
     }
 }
 
 .sqs-action-overlay>div.getty {
-    background: transparent url('//static.squarespace.com/universal/images-v6/damask/getty-16-light.png') center center no-repeat
+    /*background: transparent url('//static.squarespace.com/universal/images-v6/damask/getty-16-light.png') center center no-repeat*/
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:1.5dppx) {
     .sqs-action-overlay>div.getty {
-        background-image: url('//static.squarespace.com/universal/images-v6/damask/getty-32-light.png');
+        /*background-image: url('//static.squarespace.com/universal/images-v6/damask/getty-32-light.png');*/
         background-size: 16px
     }
 }
 
 .sqs-action-overlay>div.buy {
-    background: transparent url('//static.squarespace.com/universal/images-v6/damask/shopping-cart-16-light.png') center center no-repeat
+    /*background: transparent url('//static.squarespace.com/universal/images-v6/damask/shopping-cart-16-light.png') center center no-repeat*/
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:1.5dppx) {
     .sqs-action-overlay>div.buy {
-        background-image: url('//static.squarespace.com/universal/images-v6/damask/shopping-cart-32-light.png');
+        /*background-image: url('//static.squarespace.com/universal/images-v6/damask/shopping-cart-32-light.png');*/
         background-size: 16px
     }
 }
 
 .sqs-action-overlay>div.remove-video {
-    background: transparent url('//static.squarespace.com/universal/images-v6/damask/trash-9-light.png') center center no-repeat;
+    /*background: transparent url('//static.squarespace.com/universal/images-v6/damask/trash-9-light.png') center center no-repeat;*/
     cursor: pointer
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:1.5dppx) {
     .sqs-action-overlay>div.remove-video {
-        background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-light@2x.png');
+        /*background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-light@2x.png');*/
         background-size: 9px 11px
     }
 }
 
 .sqs-action-overlay>div.remove-video:hover {
-    background: transparent url('//static.squarespace.com/universal/images-v6/damask/trash-9-red.png') center center no-repeat
+    /*background: transparent url('//static.squarespace.com/universal/images-v6/damask/trash-9-red.png') center center no-repeat*/
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:1.5dppx) {
     .sqs-action-overlay>div.remove-video:hover {
-        background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-red@2x.png');
+        /*background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-red@2x.png');*/
         background-size: 9px 11px
     }
 }
 
 .sqs-action-overlay>div.remove-video:hover {
-    background: #f0523d url('//static.squarespace.com/universal/images-v6/damask/trash-9-light.png') center center no-repeat
+    /*background: #f0523d url('//static.squarespace.com/universal/images-v6/damask/trash-9-light.png') center center no-repeat*/
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:1.5dppx) {
     .sqs-action-overlay>div.remove-video:hover {
-        background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-light@2x.png');
+        /*background-image: url('//static.squarespace.com/universal/images-v6/damask/trash-9-light@2x.png');*/
         background-size: 9px 11px
     }
 }
@@ -1225,7 +1220,7 @@ body>.login-wrapper.hidden {
 @font-face {
     font-family: 'squarespace-ui-font';
     src: url('fonts/squarespace-ui-font.eot');
-    src: url('//static.squarespace.com/universal/fonts/squarespace-ui-font.eot?#iefix') format('embedded-opentype'), url('//static.squarespace.com/universal/fonts/squarespace-ui-font.svg#squarespace-ui-font') format('svg'), url('//static.squarespace.com/universal/fonts/squarespace-ui-font.woff') format('woff'), url('//static.squarespace.com/universal/fonts/squarespace-ui-font.ttf') format('truetype');
+    src: url('fonts/squarespace-ui-font.eot?#iefix') format('embedded-opentype'), url('//static.squarespace.com/universal/fonts/squarespace-ui-font.svg#squarespace-ui-font') format('svg'), url('//static.squarespace.com/universal/fonts/squarespace-ui-font.woff') format('woff'), url('//static.squarespace.com/universal/fonts/squarespace-ui-font.ttf') format('truetype');
     font-weight: normal;
     font-style: normal
 }
@@ -2463,19 +2458,19 @@ body.sqs-search-ui-fullscreen .sqs-search-ui-item .sqs-title .edit:hover {
 }
 
 .sqs-mobile-info-bar-trigger[data-type="location"] .sqs-mobile-info-bar-trigger-icon {
-    background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/map.png)
+    /*background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/map.png)*/
 }
 
 .sqs-mobile-info-bar-trigger[data-type="contactEmail"] .sqs-mobile-info-bar-trigger-icon {
-    background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/email.png)
+    /*background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/email.png)*/
 }
 
 .sqs-mobile-info-bar-trigger[data-type="contactPhoneNumber"] .sqs-mobile-info-bar-trigger-icon {
-    background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/call.png)
+    /*background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/call.png)*/
 }
 
 .sqs-mobile-info-bar-trigger[data-type="businessHours"] .sqs-mobile-info-bar-trigger-icon {
-    background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/hours.png)
+    /*background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/hours.png)*/
 }
 
 .sqs-mobile-info-bar-overlay {
@@ -2602,19 +2597,19 @@ body.sqs-search-ui-fullscreen .sqs-search-ui-item .sqs-title .edit:hover {
 }
 
 .sqs-mobile-info-bar-dark .sqs-mobile-info-bar-trigger[data-type="location"] .sqs-mobile-info-bar-trigger-icon {
-    background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/map-light.png)
+    /*background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/map-light.png)*/
 }
 
 .sqs-mobile-info-bar-dark .sqs-mobile-info-bar-trigger[data-type="contactEmail"] .sqs-mobile-info-bar-trigger-icon {
-    background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/email-light.png)
+    /*background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/email-light.png)*/
 }
 
 .sqs-mobile-info-bar-dark .sqs-mobile-info-bar-trigger[data-type="contactPhoneNumber"] .sqs-mobile-info-bar-trigger-icon {
-    background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/call-light.png)
+    /*background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/call-light.png)*/
 }
 
 .sqs-mobile-info-bar-dark .sqs-mobile-info-bar-trigger[data-type="businessHours"] .sqs-mobile-info-bar-trigger-icon {
-    background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/hours-light.png)
+    /*background-image: url(//static.squarespace.com/universal/images-v6/mobile-info-bar/hours-light.png)*/
 }
 
 .sqs-mobile-info-bar-dark .sqs-mobile-info-bar-overlay-close,
@@ -2731,7 +2726,7 @@ body.sqs-search-ui-fullscreen .sqs-search-ui-item .sqs-title .edit:hover {
 
 .sqs-ss-badge .badge-closed {
     width: 44px;
-    background: transparent url('//static.squarespace.com/universal/images-v6/icons/icon-squarespace-16-light.png') center center no-repeat
+    /*background: transparent url('//static.squarespace.com/universal/images-v6/icons/icon-squarespace-16-light.png') center center no-repeat*/
 }
 
 .sqs-ss-badge .badge-open {
@@ -2821,7 +2816,7 @@ body.sqs-search-ui-fullscreen .sqs-search-ui-item .sqs-title .edit:hover {
 }
 
 .sqs-ss-badge[data-type="white"] .badge-closed {
-    background-image: url("//static.squarespace.com/universal/images-v6/icons/icon-squarespace-16-dark.png")
+    /*background-image: url("//static.squarespace.com/universal/images-v6/icons/icon-squarespace-16-dark.png")*/
 }
 
 .sqs-ss-badge.badge-visible {
@@ -2905,10 +2900,10 @@ body.sqs-style-mode[data-position="bottom-left"] {
 (min-resolution:192dppx) {
     .sqs-ss-badge .badge-closed {
         background-size: 16px;
-        background-image: url("//static.squarespace.com/universal/images-v6/icons/icon-squarespace-32-light.png")
+        /*background-image: url("//static.squarespace.com/universal/images-v6/icons/icon-squarespace-32-light.png")*/
     }
     .sqs-ss-badge[data-type="white"] .badge-closed {
-        background-image: url("//static.squarespace.com/universal/images-v6/icons/icon-squarespace-32-dark.png")
+        /*background-image: url("//static.squarespace.com/universal/images-v6/icons/icon-squarespace-32-dark.png")*/
     }
 }
 
@@ -3915,14 +3910,14 @@ body.sqs-style-mode[data-position="bottom-left"] {
     left: 0;
     height: 60px;
     width: 60px;
-    background: transparent url(/universal/images-v6/icons/block-indicator-dark.png) no-repeat center
+    /*background: transparent url(/universal/images-v6/icons/block-indicator-dark.png) no-repeat center*/
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:1.5dppx) {
     .sqs-block .state-message:after,
     .sqs-state-message:after {
-        background-image: url('/universal/images-v6/icons/block-indicator-dark@2x.png');
+        /*background-image: url('/universal/images-v6/icons/block-indicator-dark@2x.png');*/
         background-size: 22px
     }
 }
@@ -5527,7 +5522,7 @@ html.blogapp .state-message {
     position: absolute;
     top: 50%;
     left: 50%;
-    background-image: url('//static.squarespace.com/universal/images-v6/icons/icon-video-24-light-solid.png');
+    /*background-image: url('//static.squarespace.com/universal/images-v6/icons/icon-video-24-light-solid.png');*/
     background-position: center center;
     height: 24px;
     width: 24px;
@@ -5536,7 +5531,7 @@ html.blogapp .state-message {
 }
 
 .sqs-block .sqs-gallery-thumbnails .sqs-video-thumbnail.no-image .sqs-video-thumbnail-inner {
-    background-image: url('//static.squarespace.com/universal/images-v6/icons/icon-video-24-light-solid.png');
+    /*background-image: url('//static.squarespace.com/universal/images-v6/icons/icon-video-24-light-solid.png');*/
     background-position: center center;
     background-repeat: no-repeat
 }
@@ -5692,7 +5687,7 @@ html.blogapp .state-message {
 
 .social-summary-block .state-message.synchronizing .spinner {
     float: left;
-    background: transparent url('//static.squarespace.com/universal/images-v6/icons/icon-settings-16-light.png') center center no-repeat;
+    /*background: transparent url('//static.squarespace.com/universal/images-v6/icons/icon-settings-16-light.png') center center no-repeat;*/
     height: 19px;
     width: 19px;
     -webkit-animation-duration: 2s;
@@ -6291,13 +6286,13 @@ html.blogapp .state-message {
     left: 50%;
     margin-top: -28px;
     margin-left: -32px;
-    background: url('//static.squarespace.com/universal/images-v6/damask/image-inside-64-dark.png') no-repeat center
+    /*background: url('//static.squarespace.com/universal/images-v6/damask/image-inside-64-dark.png') no-repeat center*/
 }
 
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:1.5dppx) {
     .sqs-block-image .sqs-empty .sqs-image-content:empty::before {
-        background-image: url('//static.squarespace.com/universal/images-v6/damask/image-inside-128-dark.png');
+        /*background-image: url('//static.squarespace.com/universal/images-v6/damask/image-inside-128-dark.png');*/
         background-size: 64px
     }
 }
@@ -7960,7 +7955,7 @@ html.blogapp .state-message {
 
 .form-wrapper .field-error {
     color: #fff;
-    background: #cc3b3b url('//static.squarespace.com/universal/images-v6/standard/icon_close_7_light.png') no-repeat 9px 50%;
+    /*background: #cc3b3b url('//static.squarespace.com/universal/images-v6/standard/icon_close_7_light.png') no-repeat 9px 50%;*/
     padding: 5px 15px 3px 25px;
     font-size: 13px;
     border-radius: 2px;
@@ -17662,7 +17657,7 @@ hr {
 
 body:after {
     display: none;
-    content: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/social-main.png)
+    content: url(images/social-main.png)
 }
 
 body {
@@ -18413,7 +18408,7 @@ html.touch .squarespace-comments .comments-content .comment-list .comment .comme
 
 .events {
     display: none;
-    background-image: url('https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/header-events.png')
+    /*background-image: url('https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/header-events.png')*/
 }
 
 .language-switch {
@@ -18450,7 +18445,7 @@ html.touch .squarespace-comments .comments-content .comment-list .comment .comme
 }
 
 #main-social {
-    background-image: url('https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/header-social.png')
+    /*background-image: url('https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/header-social.png')*/
 }
 
 #main-social:after {
@@ -18496,7 +18491,7 @@ html.touch .squarespace-comments .comments-content .comment-list .comment .comme
     margin: 0;
     background-color: #000;
     background-repeat: no-repeat;
-    background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/social-main.png);
+    background-image: url(images/social-main.png);
     background-position: -40px -40px
 }
 
@@ -18719,7 +18714,7 @@ html.touch .squarespace-comments .comments-content .comment-list .comment .comme
     height: 46px;
     width: 46px;
     background-repeat: no-repeat;
-    background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/social-main.png);
+    background-image: url(images/social-main.png);
     background-position: -40px -40px
 }
 
@@ -20223,7 +20218,7 @@ button.play-video:hover .icon-play_mono {
     text-indent: -999px;
     background-repeat: no-repeat;
     background-color: #cfcfcf;
-    background-image: url('https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/social-journal.png')
+    /*background-image: url('https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/social-journal.png')*/
 }
 
 .collection-type-journal.view-item .article-share-bar a:hover {
@@ -20305,7 +20300,7 @@ button.play-video:hover .icon-play_mono {
 
 .filter span {
     z-index: 999;
-    background: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow-black.png) no-repeat;
+    /*background: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow-black.png) no-repeat;*/
     background-size: 15px 7px;
     background-position: right center;
     padding-right: 20px
@@ -20520,7 +20515,7 @@ button.play-video:hover .icon-play_mono {
     right: 0;
     width: 36px;
     height: 1.3em;
-    background: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow-red.png) center center no-repeat;
+    /*background: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow-red.png) center center no-repeat;*/
     -webkit-transition: all 400ms ease;
     -moz-transition: all 400ms ease;
     -ms-transition: all 400ms ease;
@@ -20608,7 +20603,7 @@ button.play-video:hover .icon-play_mono {
     float: right;
     width: 36px;
     height: 1.3em;
-    background: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow.png) center center no-repeat;
+    /*background: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow.png) center center no-repeat;*/
     -webkit-transition: all 400ms ease;
     -moz-transition: all 400ms ease;
     -ms-transition: all 400ms ease;
@@ -20769,7 +20764,7 @@ html.no-js .tv-content {
     float: right;
     width: 36px;
     height: 1.3em;
-    background: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow.png) center center no-repeat;
+    /*background: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow.png) center center no-repeat;*/
     -webkit-transition: all 400ms ease;
     -moz-transition: all 400ms ease;
     -ms-transition: all 400ms ease;
@@ -20861,7 +20856,7 @@ html.no-js .tv-content {
 }
 
 .run-articles article:nth-child(4n+4) .run-title::after {
-    background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow-black.png)
+    /*background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow-black.png)*/
 }
 
 .run-articles article:nth-child(4n+4) .sqs-layout a {
@@ -20879,7 +20874,7 @@ html.no-js .tv-content {
     border-top: 1px solid #000;
     background-repeat: no-repeat;
     background-position: 98% center;
-    background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/download.png)
+    /*background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/download.png)*/
 }
 
 .run-articles article.category-files .sqs-layout h3+p a {
@@ -21107,7 +21102,7 @@ html.no-js .run-content {
     float: right;
     width: 36px;
     height: 1.3em;
-    background: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow.png) center center no-repeat;
+    /*background: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow.png) center center no-repeat;*/
     -webkit-transition: all 400ms ease;
     -moz-transition: all 400ms ease;
     -ms-transition: all 400ms ease;
@@ -21135,7 +21130,7 @@ html.no-js .run-content {
     background-color: #111;
     height: 500px;
     z-index: 100;
-    background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/padlock.svg);
+    /*background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/padlock.svg);*/
     background-repeat: no-repeat;
     background-position: center
 }
@@ -21254,7 +21249,7 @@ html.no-js .run-content {
 }
 
 .locked-articles article:nth-child(4n) .locked-title::after {
-    background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow-black.png)
+    /*background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/expand-arrow-black.png)*/
 }
 
 .locked-articles article:nth-child(4n) .sqs-layout a {
@@ -21285,7 +21280,7 @@ html.no-js .run-content {
     font-size: 1.1em;
     background-repeat: no-repeat;
     background-position: 98% center;
-    background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/download.png);
+    /*background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/download.png);*/
     display: table-cell;
     line-height: 60px;
     width: 50px
@@ -21299,7 +21294,7 @@ html.no-js .run-content {
     font-size: 1.1em;
     background-repeat: no-repeat;
     background-position: 98% center;
-    background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/play.png);
+    /*background-image: url(https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/play.png);*/
     display: table-cell;
     width: 50px
 }
@@ -21505,7 +21500,7 @@ html.no-js .locked-oauth-form-wrapper {
 
 .locked-oauth-form-wrapper #orgInput.ajax-loading {
     padding-left: 35px;
-    background-image: url('https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/ajax-loader.gif');
+    /*background-image: url('https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/ajax-loader.gif');*/
     background-position: 10px 50%;
     background-repeat: no-repeat
 }
@@ -21578,7 +21573,7 @@ html.no-js .locked-oauth-form-wrapper {
     display: block;
     text-indent: -9999px;
     background: transparent;
-    background-image: url("https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/splash-sprite.png");
+    /*background-image: url("https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/icons/splash-sprite.png");*/
     background-repeat: no-repeat
 }
 
@@ -22720,14 +22715,14 @@ html.no-touch .vjs-paused+.splash-play {
         bottom: 0;
         left: 0;
         z-index: 9;
-        background: url("https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/images/black_gradient_L.png") repeat-y 0 0;
+        background: url("images/black_gradient_L.png") repeat-y 0 0;
         background-size: contain
     }
     #watch-series-content #watch-episode .video-img:after,
     #watch-index-content #watch-episode .video-img:after {
         left: auto;
         right: 0px;
-        background: url("https://static1.squarespace.com/static/ta/571f7c27d210b8548edaecea/0/assets/images/black_gradient_R.png") repeat-y 0 0;
+        background: url("images/black_gradient_R.png") repeat-y 0 0;
         background-position: top right;
         background-size: contain
     }
@@ -24634,19 +24629,5 @@ html.no-touch .vjs-paused+.splash-play {
 
 .bga {
     position: relative;
-
-}
-.slicknav_menu {
-    display:none;
 }
 
-@media screen and (max-width: 40em) {
-    /* #menu is the original menu */
-    .js #menu {
-        display:none;
-    }
-
-    .js .slicknav_menu {
-        display:block;
-    }
-}
