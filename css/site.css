@@ -22715,14 +22715,14 @@ html.no-touch .vjs-paused+.splash-play {
         bottom: 0;
         left: 0;
         z-index: 9;
-        background: url("images/black_gradient_L.png") repeat-y 0 0;
+        background: url("/images/black_gradient_L.png") repeat-y 0 0;
         background-size: contain
     }
     #watch-series-content #watch-episode .video-img:after,
     #watch-index-content #watch-episode .video-img:after {
         left: auto;
         right: 0px;
-        background: url("images/black_gradient_R.png") repeat-y 0 0;
+        background: url("/images/black_gradient_R.png") repeat-y 0 0;
         background-position: top right;
         background-size: contain
     }
